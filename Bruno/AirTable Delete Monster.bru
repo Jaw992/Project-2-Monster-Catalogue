@@ -1,0 +1,25 @@
+meta {
+  name: AirTable Delete Monster
+  type: http
+  seq: 6
+}
+
+delete {
+  url: https://api.airtable.com/v0/appYf0toFZzaCMGae/Table%201/recQXAnRRN4g7lVvo
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer patDMQvk9TsZjEUM6.ad868915875ca0dd04cb1f9f70896708921323f86b32ff478f99f6a45d0f8153
+}
+
+body:json {
+  {
+    "fields": {
+      "name": "test",
+      "zone": 2,
+      "location": "GA Classroom 4"
+    }
+  }
+}
