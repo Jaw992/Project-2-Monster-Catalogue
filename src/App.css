@@ -11,7 +11,7 @@
 
 .hometitle {
   color: rgb(255, 255, 255);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .homebutton {
@@ -43,13 +43,19 @@ ul {
     padding: 10px;
 }
 
+.navContent {
+    height: 60px;
+    background-color: rgb(163, 200, 248);
+}
+
 /* Monster & Favourite List Page */
 .table {
     text-transform: capitalize;
     text-align: center;
     width: 70%;
     position: absolute;
-    left: 15%;
+    left: 17%;
+    top: 40%;
     vertical-align: middle;
 }
 
@@ -58,9 +64,14 @@ ul {
 }
 
 .title {
-    text-decoration: underline;
-    width: 41%;
+    width: 30%;
     padding: 10px;
+    margin-left: 38%;
+    margin-top: 20%;
+    background-color: rgba(0, 0, 0, 0.603);
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
 }
 
 thead {

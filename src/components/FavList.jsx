@@ -18,8 +18,7 @@ export default function FavList({favs, setFavs}) {
     return (
       <>
       <NavBar />
-      <h1>Favourites</h1>
-      <h1>None in Library</h1>
+      <h1 className="title">None in Library</h1>
     </>
     )
   }
@@ -27,8 +26,6 @@ export default function FavList({favs, setFavs}) {
   return (
     <>
       <NavBar />
-      <h1 className="title">Favourites</h1>
-
       <Table striped bordered variant="dark">
         <thead>
           <tr>
