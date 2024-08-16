@@ -9,18 +9,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function NavBar () {
     return (
         <>
-            {/* <ul className="bar">
-                <li>
-                    <NavLink to="/">Home</NavLink>
-                </li>
-                <li>
-                    <Link to="/monsters">Monster Catalogue</Link>
-                </li>
-                <li>
-                    <Link to="/favourites">Favourites</Link>
-                </li>
-            </ul> */}
-
     <Navbar expand="sm" className="navContent">
       <Container>
         <Navbar.Brand href="/">Monster Catalogue</Navbar.Brand>
@@ -36,7 +24,6 @@ export default function NavBar () {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
         </>
     )
 }
