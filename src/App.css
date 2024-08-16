@@ -43,13 +43,19 @@ ul {
     padding: 10px;
 }
 
+.navContent {
+    height: 60px;
+    background-color: rgb(163, 200, 248);
+}
+
 /* Monster & Favourite List Page */
 .table {
     text-transform: capitalize;
     text-align: center;
     width: 70%;
     position: absolute;
-    left: 15%;
+    left: 17%;
+    top: 40%;
     vertical-align: middle;
 }
 

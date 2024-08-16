@@ -33,7 +33,7 @@ export default function MonsterList({monsters, favs, setFavs}) {
     return (
       <>
         <NavBar />
-        <h1 className="title">Monster Catalogue</h1>
+        {/* <h1 className="title">Monster Catalogue</h1> */}
 
         <Table striped bordered variant="dark">
           <thead>
