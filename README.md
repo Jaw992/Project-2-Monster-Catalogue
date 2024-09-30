@@ -1,6 +1,8 @@
 # React Page - Monster Catalogue
+![Frontend HomePage](/MonsterHunter.png)
+To visit the site [here](https://monster-catalogue.netlify.app/).
 
-# Project Scope
+## Project Scope
 This next project was to build a web application using the react app. Using as well a 3rd party API and display the data for the user. You may use any API of your choosing. For my project, i have choosen datas from a game called Monster Hunter World and i want to build a monster catalogue where users can view for the monsters details while playing the game.
 
 1. To create a welcome, monster list and favourites pages in the web application.
@@ -9,25 +11,20 @@ This next project was to build a web application using the react app. Using as w
   - Wire FrameWork
 3. Complete within given time frame 
 
-# Time Frame
+## Time Frame
 Duration - 1 Week 
 
-# Project Summary
+## Project Summary
 It is a website template built with React and Github API, and deployed using Netlify. Monster Hunter World is a game where players can hunt for monsters and hunt for items that they can use to make equipments and strengthen their character. The monster catalogue website is to allow users to browse on the monsters weaknesses and resistance to aid them in the hunt.
 
-# Techincal Use
-- React
-- Bootstrap with react
-- Bruno
-
-# User Story
+## User Story
 1) Users will see a welcome page, click on enter and it goes to main monster list page
 2) There is a Navbar to direct you from monster list to favourites list page
 3) Clicking on "more details" will bring users to view more details on the monsters
 4) Clicking on the "favourite" button (★) you can save the monsters to users favourite page
 5) At favourite page users can click on "favourite" button (★) to unfavourite when they are done with the monsters
 
-# Wire FrameWork
+## Wire FrameWork
 Welcome Page
 - Welcomes users to the world of monsters
 
@@ -48,3 +45,12 @@ Favourite List Page
 Monster Details Page
 - User will see Monster name and details like example: location, resistance, weakness
 - Users can return back to previous page from where they came from
+
+## Technologies Used
+- HTML, CSS, JavaScript
+- React
+- Airtable
+- Bruno
+
+## React Libraries Used
+- React Bootstrap
